@@ -1,7 +1,7 @@
 FROM node:16
 LABEL project="practice"
 LABEL author="TRILOK"
-ADD . /angular-realworld-example-app  #dot is source & dest is /angular.....
+ADD . /angular-realworld-example-app  
 RUN cd angular-realworld-example-app && npm install -g @angular/cli && npm install
 EXPOSE 4200
 WORKDIR /angular-realworld-example-app

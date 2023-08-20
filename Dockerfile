@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-slim
 LABEL project="practice"
 LABEL author="TRILOK"
 ADD . /angular-realworld-example-app  
